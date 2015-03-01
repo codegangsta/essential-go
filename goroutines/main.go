@@ -9,8 +9,11 @@ func main() {
 	// say("go")
 	// go say("for it")
 
+	go say("go")
 	go say("for it")
-	say("go")
+
+	var in string
+	fmt.Scanln(&in)
 }
 
 func say(message string) {
