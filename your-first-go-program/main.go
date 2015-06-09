@@ -28,6 +28,6 @@ func main() {
 	// call a function on a package for it to really provide value to your
 	// program.
 	//
-	// We should not be able to run our program and see that it outputs "Hello world!"
+	// We should now be able to run our program and see that it outputs "Hello world!"
 	fmt.Println("Hello", "world!")
 }
